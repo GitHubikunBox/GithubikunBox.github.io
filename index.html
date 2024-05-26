@@ -1,98 +1,1545 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>游戏下载页面</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-            color: #333;
-        }
-        header {
-            background-color: #4CAF50;
-            color: white;
-            padding: 1rem 0;
-            text-align: center;
-        }
-        .container {
-            width: 80%;
-            margin: 0 auto;
-            padding: 2rem 0;
-        }
-        .game-title {
-            text-align: center;
-            margin-bottom: 1rem;
-        }
-        .game-description {
-            text-align: center;
-            margin-bottom: 2rem;
-        }
-        .screenshots {
-            display: flex;
-            justify-content: center;
-            gap: 1rem;
-            margin-bottom: 2rem;
-        }
-        .screenshots img {
-            width: 30%;
-            border: 1px solid #ddd;
-            border-radius: 4px;
-            padding: 5px;
-            background-color: white;
-        }
-        .download-button {
-            display: flex;
-            justify-content: center;
-        }
-        .download-button a {
-            background-color: #4CAF50;
-            color: white;
-            padding: 1rem 2rem;
-            text-decoration: none;
-            border-radius: 4px;
-            font-size: 1.2rem;
-        }
-        .download-button a:hover {
-            background-color: #45a049;
-        }
-        footer {
-            text-align: center;
-            padding: 1rem 0;
-            background-color: #4CAF50;
-            color: white;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
-        }
-    </style>
+<html lang="en"> 
+<head>        
+              
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+  <!-- Title -->   
+  <title>Mystique | Museum, Art Gallery & Exhibition Website</title>  
+
+  <!-- Favicon -->
+  
+
+  <!-- Font-Awesome (CSS) -->
+  <link rel="stylesheet" href="static/css/all.min.css">
+
+  <!-- Magnific-Popup (CSS) -->
+  <link rel="stylesheet" href="static/css/magnific-popup.css">
+
+  <!-- Swiper (CSS) -->
+  <link rel="stylesheet" href="static/css/swiper-bundle.min.css">
+
+  <!-- Custom Stylesheets -->
+  <link rel="stylesheet" href="static/css/main.css">
+  <link rel="stylesheet" href="static/css/responsive.css">
+
 </head>
 <body>
-    <header>
-        <h1>9213开发组游戏下载</h1>
-    </header>
-    <div class="container">
-        <div class="game-title">
-            <h2>Bug骑士</h2>
-        </div>
-        <div class="game-description">
-            <p>bug骑士</p >
-        </div>
-        <div class="screenshots">
-            <img src="img/屏幕截图 2024-04-17 103515.png" alt="" />
-			<img src="屏幕截图 2024-04-17 103515.png" alt="" />
-			<img src="屏幕截图 2024-04-17 103515.png" alt="" />
-			<img src="屏幕截图 2024-04-17 103515.png" alt="" />
-        </div>
-        <div class="download-button">
-            <a href=" " download>立即下载</a >
-        </div>
+
+  <!-- ==================== Scroll-Top Area (Start) ==================== -->
+  <a href="#" class="scroll-top">
+    <i class="fa-solid fa-arrow-up-long"></i>
+  </a>
+  <!-- ==================== Scroll-Top Area (End) ==================== -->
+    
+
+
+  <!-- ==================== Header Area (Start) ==================== -->
+  <header class="header">
+
+    <!-- ===== Header-1 Area (Start) ===== -->
+    <div class="header-1">
+
+      <!-- == Contacts == -->
+      <ul class="header-contacts">
+        <li><i class="fa-solid fa-location-dot"></i><span>Mystique Museum</span></li>
+        <li><i class="fa-solid fa-phone"></i><span>+123-456-7890</span></li>
+        <li><i class="fa-solid fa-envelope"></i><span class="gmail">info@mystiquemuseum.com</span></li>
+      </ul>             
+
+      <!-- == Social == -->
+      <ul class="social-contacts">
+        <li><a href="#" class="fab fa-facebook-f"></a></li>
+        <li><a href="#" class="fab fa-twitter"></a></li>
+        <li><a href="#" class="fab fa-instagram"></a></li>
+        <li><a href="#" class="fab fa-linkedin"></a></li>
+      </ul>
+
     </div>
-    <footer>
-        <p>&copy; 2024 游戏公司. 保留所有权利.</p >
-    </footer>
+    <!-- ===== Header-1 Area (End) ===== -->
+
+    <!-- ===== Header-2 Area (Start) ===== -->
+    <div class="header-2">
+
+      <!-- == Logo == -->
+      <a class="logo" href="">
+        <img src="static/picture/Logo.png" alt="logo">
+      </a>
+
+      <div class="container">
+
+        <!-- == Navbar == -->
+        <nav class="navbar">
+
+          <a class="nav-btn" href="">home</a>
+
+          <div class="dropdown-menu">
+            <button class="nav-btn">about</button>
+            <div class="dropdown-content">
+              <a href="About.html">about us</a>
+              <a href="Team.html">Team</a>
+              <a href="Team-Single.html">Team Single</a>
+              <a href="Testimonials.html">testimonials</a>
+              <a href="FAQs.html">FAQs</a>
+            </div>
+          </div>
+
+          <div class="dropdown-menu">
+            <button class="nav-btn">Pages</button>
+            <div class="dropdown-content">
+              <a href="Gallery.html">Gallery</a>
+              <div class="side-dropdown">
+                <button>Event</button> <i class="fa-solid fa-chevron-right"></i>
+                <div class="dropdown-content">
+                  <a href="Events.html">Events</a>
+                  <a href="Event-Single.html">Events Single</a>
+                </div>
+              </div>
+              <div class="side-dropdown">
+                <button>Career</button> <i class="fa-solid fa-chevron-right"></i>
+                <div class="dropdown-content">
+                  <a href="Careers.html">Careers</a>
+                  <a href="Career-Single.html">Career Single</a>
+                </div>
+              </div>
+              <a href="Membership.html">Membership</a>
+              <div class="side-dropdown">
+                <button>Service</button> <i class="fa-solid fa-chevron-right"></i>
+                <div class="dropdown-content">
+                  <a href="Services.html">Services</a>
+                  <a href="Service-Single.html">Service Single</a>
+                </div>
+              </div>
+              <div class="side-dropdown">
+                <button>Portfolio</button> <i class="fa-solid fa-chevron-right"></i>
+                <div class="dropdown-content">
+                  <a href="Portfolio.html">Portfolio</a>
+                  <a href="Portfolio-Single.html">Portfolio Single</a>
+                </div>
+              </div>
+              <div class="side-dropdown">
+                <button>Donation</button> <i class="fa-solid fa-chevron-right"></i>
+                <div class="dropdown-content">
+                  <a href="Donations.html">Donations</a>
+                  <a href="Donation-Single.html">Donation Single</a>
+                </div>
+              </div>
+              <a href="Donate.html">Donate</a>
+              <a href="Tickets.html">Tickets</a>
+              <a href="Partners.html">Partners</a>
+            </div>
+          </div>
+
+          <div class="dropdown-menu">
+            <button class="nav-btn">Exhibition</button>
+            <div class="dropdown-content">
+              <a href="Exhibitions.html">Exhibitions</a>
+              <a href="Exhibition-Single.html">Exhibition Single</a>
+            </div>
+          </div>
+
+          <div class="dropdown-menu">
+            <button class="nav-btn">Collection</button>
+            <div class="dropdown-content">
+              <a href="Collection-Category.html">Collection Category</a>
+              <a href="Collections.html">Collections</a>
+              <a href="Collection-Single.html">Collection Single</a>
+            </div>
+          </div>
+
+          <div class="dropdown-menu">
+            <button class="nav-btn">blog</button>
+            <div class="dropdown-content">
+              <a href="Blog-Grid.html">blogs grid</a>
+              <a href="Blog-List.html">blogs list</a>
+              <a href="Blog-Single.html">blog Single</a>
+            </div>
+          </div>
+
+          <div class="dropdown-menu">
+            <button class="nav-btn">shop</button>
+            <div class="dropdown-content">
+              <a href="Shop-Grid.html">shop grid</a>
+              <a href="Shop-List.html">shop list</a>
+              <a href="Product-Single.html">product Single</a>
+              <a href="Wishlist.html">wishlist</a>
+              <a href="Cart.html">cart</a>
+              <a href="Checkout.html">checkout</a>
+              <a href="Login.html">login</a>
+              <a href="Register.html">register</a>
+              <a href="Reset-Password.html">forgot Password</a>
+            </div>
+          </div>
+
+          <a class="nav-btn" href="Contact.html">contact</a>
+        
+        </nav> 
+
+        <!-- == Icon Container == -->
+        <div class="icon-container"> 
+          <div id="search-btn" class="icon fa-solid fa-magnifying-glass"></div> <!-- Search Icon -->
+          <div id="menu-btn" class="icon fa-solid fa-bars-staggered"></div>
+          <a href="Tickets.html" class="btn">get tickets</a>
+        </div>
+
+        <!-- == Search Container == -->
+        <form class="search-container">
+          <input type="search" id="search-bar" placeholder="search here" required=""> <!-- Search Input -->
+          <button type="submit"><i class="fas fa-search"></i></button> <!-- Submit Button -->
+        </form>
+
+      </div>
+
+    </div>
+    <!-- ===== Header-2 Area (End) ===== -->
+
+    <!-- ===== Mobile Menu Area (Start) ===== -->
+    <div class="mobile-menu"> 
+    
+      <nav class="mobile-navbar">
+
+        <div class="nav-link">
+          <div class="main-nav-link"> <a class="nav-btn" href="">home</a> </div>
+        </div>   
+
+        <div class="nav-link">
+          <div class="main-nav-link"> <div class="nav-btn">about</div> <i class="fas fa-plus"></i> </div>
+          <div class="sub-nav-link">
+            <a href="About.html">about us</a>
+            <a href="Team.html">Team</a>
+            <a href="Team-Single.html">Team Single</a>
+            <a href="Testimonials.html">testimonials</a>
+            <a href="FAQs.html">FAQs</a>
+          </div>
+        </div> 
+
+        <div class="nav-link">
+          <div class="main-nav-link"> <div class="nav-btn">pages</div> <i class="fas fa-plus"></i> </div>
+          <div class="sub-nav-link">
+            <a href="Gallery.html">Gallery</a>
+            <div class="nav-link">
+              <div class="main-nav-link"> <div class="nav-btn">Event</div> <i class="fas fa-plus"></i> </div>
+              <div class="sub-nav-link">
+                <a href="Events.html">Events</a>
+                <a href="Event-Single.html">Events Single</a>
+              </div>
+            </div> 
+            <div class="nav-link">
+              <div class="main-nav-link"> <div class="nav-btn">Career</div> <i class="fas fa-plus"></i> </div>
+              <div class="sub-nav-link">
+                <a href="Careers.html">Careers</a>
+                <a href="Career-Single.html">Career Single</a>
+              </div>
+            </div> 
+            <a href="Membership.html">Membership</a>
+            <div class="nav-link">
+              <div class="main-nav-link"> <div class="nav-btn">Service</div> <i class="fas fa-plus"></i> </div>
+              <div class="sub-nav-link">
+                <a href="Services.html">Services</a>
+                <a href="Service-Single.html">Service Single</a>
+              </div>
+            </div> 
+            <div class="nav-link">
+              <div class="main-nav-link"> <div class="nav-btn">Portfolio</div> <i class="fas fa-plus"></i> </div>
+              <div class="sub-nav-link">
+                <a href="Portfolio.html">Portfolio</a>
+                <a href="Portfolio-Single.html">Portfolio Single</a>
+              </div>
+            </div> 
+            <div class="nav-link">
+              <div class="main-nav-link"> <div class="nav-btn">Donation</div> <i class="fas fa-plus"></i> </div>
+              <div class="sub-nav-link">
+                <a href="Donations.html">Donations</a>
+                <a href="Donation-Single.html">Donation Single</a>
+              </div>
+            </div> 
+            <a href="Donate.html">Donate</a>
+            <a href="Tickets.html">Tickets</a>
+            <a href="Partners.html">Partners</a>
+          </div>
+        </div> 
+
+        <div class="nav-link">
+          <div class="main-nav-link"> <div class="nav-btn">Exhibition</div> <i class="fas fa-plus"></i> </div>
+          <div class="sub-nav-link">
+            <a href="Exhibitions.html">Exhibitions</a>
+            <a href="Exhibition-Single.html">Exhibition Single</a>
+          </div>
+        </div> 
+
+        <div class="nav-link">
+          <div class="main-nav-link"> <div class="nav-btn">Collection</div> <i class="fas fa-plus"></i> </div>
+          <div class="sub-nav-link">
+            <a href="Collection-Category.html">Collection Category</a>
+            <a href="Collections.html">Collections</a>
+            <a href="Collection-Single.html">Collection Single</a>
+          </div>
+        </div> 
+
+        <div class="nav-link">
+          <div class="main-nav-link"> <div class="nav-btn">blog</div> <i class="fas fa-plus"></i> </div>
+          <div class="sub-nav-link">
+            <a href="Blog-Grid.html">blogs grid</a>
+            <a href="Blog-List.html">blogs list</a>
+            <a href="Blog-Single.html">blog Single</a>
+          </div>
+        </div> 
+
+        <div class="nav-link">
+          <div class="main-nav-link"> <div class="nav-btn">Shop</div> <i class="fas fa-plus"></i> </div>
+          <div class="sub-nav-link">
+            <a href="Shop-Grid.html">shop grid</a>
+            <a href="Shop-List.html">shop list</a>
+            <a href="Product-Single.html">product Single</a>
+            <a href="Wishlist.html">wishlist</a>
+            <a href="Cart.html">cart</a>
+            <a href="Checkout.html">checkout</a>
+            <a href="Login.html">login</a>
+            <a href="Register.html">register</a>
+            <a href="Reset-Password.html">forgot Password</a>
+          </div>
+        </div> 
+
+        <div class="nav-link">
+          <div class="main-nav-link"> <a class="nav-btn" href="Contact.html">contact</a> </div>
+        </div>  
+
+      </nav> 
+    
+    </div>
+    <!-- ===== Mobile Menu Area (End) ===== -->
+
+  </header>
+  <!-- ==================== Header Area (End) ==================== -->  
+
+
+
+  <!-- ==================== Home-Slider Area (Start) ==================== -->  
+  <section class="home">
+
+    <!-- Home Slider -->
+    <div class="swiper-container home-slider">
+      <div class="swiper-wrapper">
+  
+        <!-- Home Slide-1 -->
+        <div class="swiper-slide home-item">
+          <img src="static/picture/Home-1.jpg" alt="Home Image"> <!-- Slide Image -->
+          <div class="content">
+            <div class="text">
+              <h5>May 1, 2024 - May 24, 2024</h5> <!-- Slide Date -->
+              <h3>Garden of Serenity: A Botanical Exploration</h3> <!-- Slide Heading -->
+              <a href="Exhibition-Single.html" class="btn">View Details</a> <!-- Detail Page Button -->
+            </div>
+          </div>
+        </div>
+  
+        <!-- Home Slide-2 -->
+        <div class="swiper-slide home-item">
+          <img src="static/picture/Home-2.jpg" alt="Home Image"> <!-- Slide Image -->
+          <div class="content">
+            <div class="text">
+              <h5>May 1, 2024 - May 24, 2024</h5> <!-- Slide Date -->
+              <h3>Lost Worlds: Archaeological Discoveries</h3> <!-- Slide Heading -->
+              <a href="Exhibition-Single.html" class="btn">View Details</a> <!-- Detail Page Button -->
+            </div>
+          </div>
+        </div>
+  
+        <!-- Home Slide-3 -->
+        <div class="swiper-slide home-item">
+          <img src="static/picture/Home-3.jpg" alt="Home Image"> <!-- Slide Image -->
+          <div class="content">
+            <div class="text">
+              <h5>May 1, 2024 - May 24, 2024</h5> <!-- Slide Date -->
+              <h3>Artistry in Motion: Modern Sculpture Exhibition</h3> <!-- Slide Heading -->
+              <a href="Exhibition-Single.html" class="btn">View Details</a> <!-- Detail Page Button -->
+            </div>
+          </div>
+        </div>
+  
+      </div>
+  
+      <!-- Home Slider Pagination -->
+      <div class="swiper-pagination swiper-pagination1"></div>
+  
+      <!-- Home Slider Navigation arrows -->
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+  
+    </div>
+  
+  </section>
+  <!-- ==================== Home-Slider Area (End) ==================== -->     
+
+
+
+  <!-- ==================== Features Area (Start) =================== -->
+  <section class="features">
+
+    <div class="box-container">
+  
+      <!-- Feature 1 - Opening Hours -->
+      <div class="feature-item">
+        <i class="fas fa-clock"></i> <!-- Clock icon -->
+        <h3>Opening Hours</h3>
+        <p>Mon - Fri: 7 AM - 7 PM</p>
+        <p>Sat - Sun: 8 AM - 6 PM</p>
+      </div>
+  
+      <!-- Feature 2 - Find Location -->
+      <div class="feature-item">
+        <i class="fa-solid fa-map-location-dot"></i> <!-- Map marker icon -->
+        <h3>Find Location</h3>
+        <p>Mystique Museum, 123 Enigmatic Street</p>
+      </div>
+  
+      <!-- Feature 3 - Current Exhibitions -->
+      <div class="feature-item">
+        <i class="fas fa-glass-cheers"></i> <!-- Champagne glass icon -->
+        <h3>Current Exhibitions</h3>
+        <p>The Art Of Seeing, Fossils And Minerals, Art Deco Collection</p>
+      </div>
+  
+      <!-- Feature 4 - Buy Tickets -->
+      <div class="feature-item">
+        <i class="fas fa-ticket-alt"></i> <!-- Ticket icon -->
+        <h3>Buy Tickets</h3>
+        <p>Purchase tickets for an unforgettable journey through art, history</p>
+      </div>
+  
+    </div>
+  
+  </section> 
+  <!-- ==================== Features Area (End) ==================== -->
+
+
+
+  <!-- ==================== About Area (Start) ==================== -->
+  <section class="about">
+
+    <!-- About Image -->
+    <div class="image">
+      <div class="sub-image up">
+        <img src="static/picture/About-1.jpg" alt="About-Image1">
+      </div>
+      <div class="sub-image">
+        <img src="static/picture/About-2.jpg" alt="About-Image2">
+      </div>
+      <div class="sub-image up">
+        <img src="static/picture/About-3.jpg" alt="About-Image1">
+      </div>
+      <div class="sub-image">
+        <img src="static/picture/About-4.jpg" alt="About-Image2">
+      </div>
+    </div>
+  
+    <!-- Introduction Content -->
+    <div class="content">
+  
+      <div class="heading">
+        <div class="sub"><span>About Us</span><i class="fa-solid fa-building-columns"></i></div> <!-- Sub Heading -->
+        <h2>Discover Our Museum's Rich Cultural Legacy</h2> <!-- Main Heading -->
+      </div>
+  
+      <!-- Description -->
+      <p>Welcome to Mystique Museum, where history comes alive through art, culture, and heritage. We are dedicated to preserving and showcasing the diverse narratives that define our collective human experience.</p>
+  
+      <!-- Key Features -->
+      <ul class="about-features">
+        <li><i class="fa-solid fa-building-columns"></i><span>Diverse Exhibit Collections</span></li> <!-- Feature 1 -->
+        <li><i class="fa-solid fa-building-columns"></i><span>Engaging Educational Programs</span></li> <!-- Feature 2 -->
+        <li><i class="fa-solid fa-building-columns"></i><span>Cultural Events and Workshops</span></li> <!-- Feature 3 -->
+        <li><i class="fa-solid fa-building-columns"></i><span>Inspiring Artistic Displays</span></li> <!-- Feature 4 -->
+      </ul>
+  
+      <a href="Contact.html" class="btn">Contact Us</a> <!-- Contact Page Button -->
+  
+    </div>
+  
+  </section>    
+  <!-- ==================== About Area (End) ==================== -->
+
+
+
+  <!-- ==================== Count Area (Start) ==================== -->
+  <div class="counting">
+
+    <!-- Statistic Box 1: Exhibit Collections -->
+    <div class="box">
+      <div class="info">
+        <i class="fa-solid fa-book"></i> <!-- Book icon -->
+        <div class="content">
+          <h1 class="count" data-count="500"></h1> <!-- Count of exhibit collections -->
+          <span></span>
+          <h3>Exhibit Collections</h3> <!-- Statistic description -->
+        </div>
+      </div>
+    </div>
+  
+    <!-- Statistic Box 2: Artifacts -->
+    <div class="box">
+      <div class="info">
+        <i class="fas fa-hourglass-half"></i> <!-- Hourglass icon -->
+        <div class="content">
+          <h1 class="count" data-count="10000"></h1> <!-- Count of artifacts -->
+          <span></span>
+          <h3>Artifacts</h3> <!-- Statistic description -->
+        </div>
+      </div>
+    </div>
+  
+    <!-- Statistic Box 3: Years of History -->
+    <div class="box">
+      <div class="info">
+        <i class="fas fa-history"></i> <!-- History icon -->
+        <div class="content">
+          <h1 class="count" data-count="200"></h1> <!-- Count of years of history -->
+          <span></span>
+          <h3>Years of History</h3> <!-- Statistic description -->
+        </div>
+      </div>
+    </div>
+  
+    <!-- Statistic Box 4: Visitors -->
+    <div class="box">
+      <div class="info">
+        <i class="fas fa-users"></i> <!-- Users icon -->
+        <div class="content">
+          <h1 class="count" data-count="500000"></h1> <!-- Count of visitors -->
+          <span></span>
+          <h3>Visitors</h3> <!-- Statistic description -->
+        </div>
+      </div>
+    </div>
+  
+  </div>   
+  <!-- ==================== Count Area (End) ==================== -->
+
+
+
+  <!-- ==================== Service Slider Area (Start) ==================== -->
+  <section class="services">
+
+    <!-- Section Heading -->
+    <div class="heading">
+      <div class="sub"><i class="fa-solid fa-building-columns"></i><span>Explore Our Offerings</span><i class="fa-solid fa-building-columns"></i></div>
+      <h2>Our Services</h2>
+    </div>
+
+    <!-- Service Slider -->
+    <div class="swiper-container service-slider">
+      <div class="swiper-wrapper">
+
+        <!-- Service 1: Guided Tours -->
+        <div class="swiper-slide service-item">
+          <img src="static/picture/Service-1.jpg" alt="Guided Tours"> <!-- Service Image -->
+          <div class="content">
+            <i class="fa-solid fa-compass"></i> <!-- Guided Tours Icon -->
+            <a href="Service-Single.html"><h3>Guided Tours</h3></a> <!-- Service Title -->
+            <span></span>
+            <p>Explore our exhibitions and collections with knowledgeable guides who provide insights into our artifacts, artworks, and historical contexts.</p> <!-- Service Description -->
+            <a href="Service-Single.html" class="btn">Read More</a>
+          </div>
+        </div>
+    
+        <!-- Service 2: Educational Workshops -->
+        <div class="swiper-slide service-item">
+          <img src="static/picture/Service-2.jpg" alt="Educational Workshops"> <!-- Service Image -->
+          <div class="content">
+            <i class="fa-solid fa-chalkboard-teacher"></i> <!-- Educational Workshops Icon -->
+            <a href="Service-Single.html"><h3>Educational Workshops</h3></a> <!-- Service Title -->
+            <span></span>
+            <p>Participate in hands-on workshops and interactive sessions designed to deepen your understanding of art, history, and science.</p> <!-- Service Description -->
+            <a href="Service-Single.html" class="btn">Read More</a>
+          </div>
+        </div>
+    
+        <!-- Service 3: Special Events -->
+        <div class="swiper-slide service-item">
+          <img src="static/picture/Service-3.jpg" alt="Special Events"> <!-- Service Image -->
+          <div class="content">
+            <i class="fas fa-calendar-alt"></i> <!-- Special Events Icon -->
+            <a href="Service-Single.html"><h3>Special Events</h3></a> <!-- Service Title -->
+            <span></span>
+            <p>Attend exclusive events, receptions, and cultural celebrations hosted by the museum throughout the year.</p> <!-- Service Description -->
+            <a href="Service-Single.html" class="btn">Read More</a>
+          </div>
+        </div>
+    
+        <!-- Service 4: Virtual Tours -->
+        <div class="swiper-slide service-item">
+          <img src="static/picture/Service-4.jpg" alt="Virtual Tours"> <!-- Service Image -->
+          <div class="content">
+            <i class="fas fa-vr-cardboard"></i> <!-- Virtual Tours Icon -->
+            <a href="Service-Single.html"><h3>Virtual Tours</h3></a> <!-- Service Title -->
+            <span></span>
+            <p>Explore our exhibitions and collections from the comfort of your home with immersive virtual tours and multimedia experiences.</p> <!-- Service Description -->
+            <a href="Service-Single.html" class="btn">Read More</a>
+          </div>
+        </div>
+    
+        <!-- Service 5: Membership Benefits -->
+        <div class="swiper-slide service-item">
+          <img src="static/picture/Service-5.jpg" alt="Membership Benefits"> <!-- Service Image -->
+          <div class="content">
+            <i class="fa-solid fa-certificate"></i> <!-- Membership Benefits Icon -->
+            <a href="Service-Single.html"><h3>Membership Benefits</h3></a> <!-- Service Title -->
+            <span></span>
+            <p>Unlock exclusive benefits, discounts, and access to special privileges by becoming a museum member.</p> <!-- Service Description -->
+            <a href="Service-Single.html" class="btn">Read More</a>
+          </div>
+        </div>
+    
+        <!-- Service 6: Educational Resources -->
+        <div class="swiper-slide service-item">
+          <img src="static/picture/Service-6.jpg" alt="Educational Resources"> <!-- Service Image -->
+          <div class="content">
+            <i class="fa-solid fa-book"></i> <!-- Educational Resources Icon -->
+            <a href="Service-Single.html"><h3>Educational Resources</h3></a> <!-- Service Title -->
+            <span></span>
+            <p>Access educational materials, lesson plans, and digital resources designed for teachers, students, and lifelong learners.</p> <!-- Service Description -->
+            <a href="Service-Single.html" class="btn">Read More</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+  <!-- ==================== Service Slider Area (End) ==================== -->
+
+
+
+  <!-- ==================== Portfolio Area (Start) ==================== -->
+  <section class="portfolio">
+
+    <!-- Section Heading -->
+    <div class="heading">
+      <div class="sub"><i class="fa-solid fa-building-columns"></i><span>Explore Our Work</span><i class="fa-solid fa-building-columns"></i></div>
+      <h2>our portfolio</h2>
+    </div> 
+
+    <!-- Portfolio Filter Buttons -->
+    <ul class="tab-buttons">
+      <li class="button active" data-filter="*">all</li> <!-- Display all services -->
+      <li class="button" data-filter=".tours">Guided Tours</li> <!-- Filter by Guided Tours -->
+      <li class="button" data-filter=".workshops">Educational Workshops</li> <!-- Filter by Educational Workshops -->
+      <li class="button" data-filter=".events">Special Events</li> <!-- Filter by Special Events -->
+    </ul>
+   
+    <!-- Portfolio Container -->
+    <div class="box-container">
+  
+      <!-- Portfolio 1 - Highlights Tour -->
+      <div class="portfolio-item tours">
+        <div class="portfolio-content">
+          <img src="static/picture/Portfolio-1.jpg" alt="Theme Garden"> <!-- Portfolio Image -->
+          <div class="content">
+            <!-- Buttons container -->
+            <div class="btn-container">
+              <a class="view" href="static/picture/Portfolio-1.jpg"><i class="fa-solid fa-plus"></i></a> <!-- View image button -->
+              <a href="Portfolio-Single.html"><i class="fa-solid fa-link"></i></a> <!-- Link to Portfolio Single page -->
+            </div>
+            <!-- Text content -->
+            <div class="text">
+              <p>Guided Tours</p> <!-- Portfolio Category -->
+              <a href="Portfolio-Single.html"><h3>Highlights Tour</h3></a> <!-- Portfolio Title -->
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Portfolio 2 - Art Workshop -->
+      <div class="portfolio-item workshops">
+        <div class="portfolio-content">
+          <img src="static/picture/Portfolio-2.jpg" alt="Lawn Mowing"> <!-- Portfolio Image -->
+          <div class="content">
+            <!-- Buttons container -->
+            <div class="btn-container">
+              <a class="view" href="static/picture/Portfolio-2.jpg"><i class="fa-solid fa-plus"></i></a> <!-- View image button -->
+              <a href="Portfolio-Single.html"><i class="fa-solid fa-link"></i></a> <!-- Link to Portfolio Single page -->
+            </div>
+            <!-- Text content -->
+            <div class="text">
+              <p>Educational Workshops</p> <!-- Portfolio Category -->
+              <a href="Portfolio-Single.html"><h3>Art Workshop</h3></a> <!-- Portfolio Title -->
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Portfolio 3 - Architecture Tour -->
+      <div class="portfolio-item tours">
+        <div class="portfolio-content">
+          <img src="static/picture/Portfolio-3.jpg" alt="Landscape Design"> <!-- Portfolio Image -->
+          <div class="content">
+            <!-- Buttons container -->
+            <div class="btn-container">
+              <a class="view" href="static/picture/Portfolio-3.jpg"><i class="fa-solid fa-plus"></i></a> <!-- View image button -->
+              <a href="Portfolio-Single.html"><i class="fa-solid fa-link"></i></a> <!-- Link to Portfolio Single page -->
+            </div>
+            <!-- Text content -->
+            <div class="text">
+              <p>Guided Tours</p> <!-- Portfolio Category -->
+              <a href="Portfolio-Single.html"><h3>Architecture Tour</h3></a> <!-- Portfolio Title -->
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Portfolio 4 - Art exhibition -->
+      <div class="portfolio-item events">
+        <div class="portfolio-content">
+          <img src="static/picture/Portfolio-4.jpg" alt="Patio Installation"> <!-- Portfolio Image -->
+          <div class="content">
+            <!-- Buttons container -->
+            <div class="btn-container">
+              <a class="view" href="static/picture/Portfolio-4.jpg"><i class="fa-solid fa-plus"></i></a> <!-- View image button -->
+              <a href="Portfolio-Single.html"><i class="fa-solid fa-link"></i></a> <!-- Link to Portfolio Single page -->
+            </div>
+            <!-- Text content -->
+            <div class="text">
+              <p>Special Events</p> <!-- Portfolio Category -->
+              <a href="Portfolio-Single.html"><h3>Art exhibition</h3></a> <!-- Portfolio Title -->
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Portfolio 5 - Photography Workshop -->
+      <div class="portfolio-item workshops">
+        <div class="portfolio-content">
+          <img src="static/picture/Portfolio-5.jpg" alt="Irrigation Management"> <!-- Portfolio Image -->
+          <div class="content">
+            <!-- Buttons container -->
+            <div class="btn-container">
+              <a class="view" href="static/picture/Portfolio-5.jpg"><i class="fa-solid fa-plus"></i></a> <!-- View image button -->
+              <a href="Portfolio-Single.html"><i class="fa-solid fa-link"></i></a> <!-- Link to Portfolio Single page -->
+            </div>
+            <!-- Text content -->
+            <div class="text">
+              <p>Educational Workshops</p> <!-- Portfolio Category -->
+              <a href="Portfolio-Single.html"><h3>Photography Workshop</h3></a> <!-- Portfolio Title -->
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Portfolio 6 - sculpture showcase -->
+      <div class="portfolio-item events">
+        <div class="portfolio-content">
+          <img src="static/picture/Portfolio-6.jpg" alt="Deck Building"> <!-- Portfolio Image -->
+          <div class="content">
+            <!-- Buttons container -->
+            <div class="btn-container">
+              <a class="view" href="static/picture/Portfolio-6.jpg"><i class="fa-solid fa-plus"></i></a> <!-- View image button -->
+              <a href="Portfolio-Single.html"><i class="fa-solid fa-link"></i></a> <!-- Link to Portfolio Single page -->
+            </div>
+            <!-- Text content -->
+            <div class="text">
+              <p>Special Events</p> <!-- Portfolio Category -->
+              <a href="Portfolio-Single.html"><h3>sculpture showcase</h3></a> <!-- Portfolio Title -->
+            </div>
+          </div>
+        </div>
+      </div>
+  
+    </div>
+
+  </section> 
+  <!-- ==================== Portfolio Area (End) ==================== -->
+
+    
+
+  <!-- ==================== Mission Area (Start) ==================== -->
+  <section class="our-mission linear-bg">
+
+    <div class="box-container"> 
+  
+      <!-- Main Content Area -->
+      <div class="content">
+        <div class="text">
+  
+          <!-- Section Heading -->
+          <div class="heading">  
+            <div class="sub"><span>Our Mission</span><i class="fa-solid fa-university"></i></div> <!-- Sub Heading -->
+            <h2>Enriching Lives Through Art and Culture</h2>
+          </div>
+  
+          <!-- Main Heading -->
+          <p>At our museum, we are dedicated to enriching lives and fostering cultural understanding through our diverse exhibitions and educational programs.</p>
+          
+          <!-- Mission Points -->
+          <ul class="our-mission-points">
+            <li>
+              <i class="fa-solid fa-paint-brush"></i> <!-- Paintbrush icon -->
+              <div class="text">
+                <h5>Artistic Excellence</h5>
+                <p>We strive to exhibit and promote artistic excellence by showcasing works of renowned artists and emerging talents from around the world.</p>
+              </div>
+            </li>
+            <li>
+              <i class="fa-solid fa-book"></i> <!-- Book icon -->
+              <div class="text">
+                <h5>Education and Engagement</h5>
+                <p>We are committed to providing educational opportunities and fostering community engagement through interactive exhibitions, workshops, and events.</p>
+              </div>
+            </li>
+            <li>
+              <i class="fa-solid fa-globe"></i> <!-- Globe icon -->
+              <div class="text">
+                <h5>Cultural Diversity</h5>
+                <p>We celebrate cultural diversity by curating exhibitions that reflect a wide range of artistic styles, traditions, and perspectives.</p>
+              </div>
+            </li>
+          </ul>
+          
+        </div>
+      </div>
+  
+    </div>
+  
+  </section>   
+  <!-- ==================== Mission Area (End) ==================== -->
+
+
+
+  <!-- ==================== Exhibitions Area (Start) ==================== -->
+  <section class="exhibitions">
+
+    <!-- Section Heading -->
+    <div class="heading">
+      <div class="sub"><i class="fa-solid fa-building-columns"></i><span>Explore Our Collections</span><i class="fa-solid fa-building-columns"></i></div>
+      <h2>Upcoming Exhibitions</h2>
+    </div> 
+
+    <!-- Exhibitions Container -->
+    <div class="box-container"> 
+
+      <!-- Exhibition 1: Ancient Artifacts -->
+      <div class="exhibition-item">
+        <div class="image">
+          <img src="static/picture/Exhibition-1.jpg" alt="Exhibition-Image"> <!-- Exhibition Image -->
+        </div>
+        <div class="content">
+          <p>photography</p> <!-- Collection Category -->
+          <div class="text">
+            <a class="main-heading" href="Exhibition-Single.html">The Art of Seeing</a> <!-- Exhibition Title -->
+            <div class="date">May 1, 2024 - May 6, 2024</div> <!-- Exhibition Date -->
+          </div>
+        </div>
+      </div>
+
+      <!-- Exhibition 2: Fine Art -->
+      <div class="exhibition-item">
+        <div class="image">
+          <img src="static/picture/Exhibition-2.jpg" alt="Exhibition-Image"> <!-- Exhibition Image -->
+        </div>
+        <div class="content">
+          <p>Ancient Artifacts</p> <!-- Collection Category -->
+          <div class="text">
+            <a class="main-heading" href="Exhibition-Single.html">Egyptian Treasures</a> <!-- Exhibition Title -->
+            <div class="date">may 8, 2024 - May 15, 2024</div> <!-- Exhibition Date -->
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </section>   
+  <!-- ==================== Exhibitions Area (End) ==================== -->
+
+
+
+  <!-- ==================== Collection Category Area (Start) ==================== -->
+  <section class="collect-categories">
+
+    <!-- Section Heading -->
+    <div class="heading">
+      <div class="sub"><i class="fa-solid fa-building-columns"></i><span>Explore Our Collections</span><i class="fa-solid fa-building-columns"></i></div>
+      <h2>Collection Category</h2>
+    </div>    
+    
+    <!-- Collection Categories -->
+    <div class="box-container">
+      
+      <!-- Category 1 -->
+      <div class="category-item category-1">
+        <img src="static/picture/Category-1.jpg" alt="Category-Image"> <!-- Category Image -->
+        <a href="Collections.html"><h3>Photography</h3></a> <!-- Category Name -->
+      </div>
+
+      <!-- Category 2 -->
+      <div class="category-item category-2">
+        <img src="static/picture/Category-2.jpg" alt="Category-Image"> <!-- Category Image -->
+        <a href="Collections.html"><h3>Cultural Heritage</h3></a> <!-- Category Name -->
+      </div>
+
+      <!-- Category 3 -->
+      <div class="category-item category-3">
+        <img src="static/picture/Category-3.jpg" alt="Category-Image"> <!-- Category Image -->
+        <a href="Collections.html"><h3>Fine Jewelry</h3></a> <!-- Category Name -->
+      </div>
+
+      <!-- Category 4 -->
+      <div class="category-item category-4">
+        <img src="static/picture/Category-4.jpg" alt="Category-Image"> <!-- Category Image -->
+        <a href="Collections.html"><h3>Natural History:</h3></a> <!-- Category Name -->
+      </div>
+
+      <!-- Category 5 -->
+      <div class="category-item category-5">
+        <img src="static/picture/Category-5.jpg" alt="Category-Image"> <!-- Category Image -->
+        <a href="Collections.html"><h3>Decorative Arts</h3></a> <!-- Category Name -->
+      </div>
+
+    </div>
+
+  </section>
+  <!-- ==================== Collection Category Area (End) ==================== -->
+
+    
+
+  <!-- ==================== Banner Area (Start) ==================== -->
+  <section class="banner">
+    <div class="content">
+  
+      <div class="heading">
+        <div class="sub"><span>Explore our Exhibitions</span><i class="fas fa-museum"></i></div>
+      </div>
+      <h2>Discover Captivating Art and Culture</h2>
+      <a href="./pages/Exhibitions.html" class="btn">View Exhibitions</a>
+    
+    </div>
+    
+  </section>   
+  <!-- ==================== Banner Area (End) ==================== -->
+
+
+  
+  <!-- ==================== Events Area (Start) ==================== -->
+  <section class="events">
+
+    <!-- Section Heading -->
+    <div class="heading">
+      <div class="sub"><i class="fa-solid fa-building-columns"></i><span>Discover Our Upcoming Events</span><i class="fa-solid fa-building-columns"></i></div>
+      <h2>Upcoming Events</h2>
+    </div> 
+    
+    <!-- Events Container -->
+    <div class="box-container">
+    
+      <!-- Event 1: Art Exhibitions -->
+      <div class="event-item">
+        <div class="image">
+          <img src="static/picture/Event-1.jpg" alt="Art Exhibitions"> <!-- Event Image -->
+        </div>
+        <div class="content">
+          <div class="date">Wed <br> <span>01</span> May</div> <!-- Event Date -->
+          <a class="main-heading" href="Event-Single.html">Art Exhibitions</a> <!-- Event Title -->
+          <div class="details">
+            <h3><i class="fas fa-clock"></i><span>10:00 AM - 4:00 PM</span></h3>
+            <h3><i class="fas fa-map-marker-alt"></i><span>Gallery Hall</span></h3> <!-- Event Venue -->
+          </div>
+        </div>
+      </div>
+    
+      <!-- Event 2: Guest Lectures -->
+      <div class="event-item">
+        <div class="image">
+          <img src="static/picture/Event-2.jpg" alt="Guest Lectures"> <!-- Event Image -->
+        </div>
+        <div class="content">
+          <div class="date">Thu <br> <span>02</span> May</div> <!-- Event Date -->
+          <a class="main-heading" href="Event-Single.html">Guest Lectures</a> <!-- Event Title -->
+          <div class="details">
+            <h3><i class="fas fa-clock"></i><span>2:00 PM - 5:00 PM</span></h3>
+            <h3><i class="fas fa-map-marker-alt"></i><span>Auditorium</span></h3> <!-- Event Venue -->
+          </div>
+        </div>
+      </div>
+    
+    </div>
+    
+  </section>
+  <!-- ==================== Events Area (End) ==================== -->
+
+    
+
+  <!-- ==================== Donations Area (Start) ==================== -->
+  <section class="donations">
+
+    <!-- Section Heading -->
+    <div class="heading">
+      <div class="sub"><i class="fa-solid fa-building-columns"></i><span>Support Our Museum</span><i class="fa-solid fa-building-columns"></i></div>
+      <h2>Our Causes</h2>
+    </div>
+  
+    <!-- Causes Container -->
+    <div class="box-container">
+  
+      <!-- Cause 1: Art Restoration -->
+      <div class="donation-item">
+        <img src="static/picture/Donation-1.jpg" alt="Art Restoration">
+        <div class="content">
+          <a href="Donation-Single.html"><h3 class="main-heading">Art Restoration</h3></a>
+          <p>Help preserve and restore priceless artworks in our museum's collection.</p>
+          <div class="skill-bar">
+            <span class="skill-progress" style="width: 50%;">
+              <span class="skill-no">50%</span>
+            </span>
+          </div>
+          <div class="amount">
+            <p><span>$1000</span> Raised</p>
+            <p><span>$2000</span> Goal</p>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Cause 2: Educational Programs -->
+      <div class="donation-item">
+        <img src="static/picture/Donation-2.jpg" alt="Educational Programs">
+        <div class="content">
+          <a href="Donation-Single.html"><h3 class="main-heading">Educational Programs</h3></a>
+          <p>Support our educational initiatives and help inspire future generations.</p>
+          <div class="skill-bar">
+            <span class="skill-progress" style="width: 50%;">
+              <span class="skill-no">50%</span>
+            </span>
+          </div>
+          <div class="amount">
+            <p><span>$1000</span> Raised</p>
+            <p><span>$2000</span> Goal</p>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Cause 3: Exhibit Expansion -->
+      <div class="donation-item">
+        <img src="static/picture/Donation-3.jpg" alt="Exhibit Expansion">
+        <div class="content">
+          <a href="Donation-Single.html"><h3 class="main-heading">Exhibit Expansion</h3></a>
+          <p>Help us grow and diversify our museum's exhibits for visitors to enjoy.</p>
+          <div class="skill-bar">
+            <span class="skill-progress" style="width: 50%;">
+              <span class="skill-no">50%</span>
+            </span>
+          </div>
+          <div class="amount">
+            <p><span>$1000</span> Raised</p>
+            <p><span>$2000</span> Goal</p>
+          </div>
+        </div>
+      </div>
+  
+    </div>
+  
+  </section>  
+  <!-- ==================== Donations Area (End) ==================== -->
+
+
+
+  <!-- ==================== Testimonials Area (Start) ==================== -->    
+  <section class="testimonial-bg linear-bg">
+
+    <!-- Section Heading -->
+    <div class="heading">
+      <div class="sub"><i class="fa-solid fa-building-columns"></i><span>Visitor Feedback</span><i class="fa-solid fa-building-columns"></i></div> <!-- Sub Heading -->
+      <h2>Visitor Testimonials</h2> 
+    </div>    
+  
+    <!-- Testimonial Slider -->
+    <div class="swiper-container testimonial-slider">
+  
+      <div class="swiper-wrapper">
+     
+        <!-- Testimonial Slide 1 -->
+        <div class="swiper-slide testi-item">
+          <img src="static/picture/Pic-1.jpg" alt="Visitor-Pic">
+          <div class="intro">
+            <i class="fas fa-quote-left"></i>
+            <div class="text">
+              <h4>Emily Parker</h4>
+              <h6>Art Enthusiast</h6>
+            </div>
+            <i class="fas fa-quote-right"></i>
+          </div>
+          <p>"Each exhibit was a journey through time and culture, leaving me with a profound sense of awe and admiration. The attention to detail and curation were exceptional, making every moment spent in the museum a delight for the senses."</p>
+          <div class="rating">
+            <i class="fa-solid fa-star"></i> 
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+        </div>
+  
+        <!-- Testimonial Slide 2 -->
+        <div class="swiper-slide testi-item">
+          <img src="static/picture/Pic-2.jpg" alt="Visitor-Pic">
+          <div class="intro">
+            <i class="fas fa-quote-left"></i>
+            <div class="text">
+              <h4>John Smith</h4>
+              <h6>History Buff</h6>
+            </div>
+            <i class="fas fa-quote-right"></i>
+          </div>
+          <p>"Exploring the museum's exhibits was like taking a captivating journey through the annals of history. The wealth of knowledge and the immersive displays made me feel as though I had stepped back in time. It's a treasure trove for anyone fascinated by the intricacies of the past."</p>
+          <div class="rating">
+            <i class="fa-solid fa-star"></i> 
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+        </div>
+  
+        <!-- Testimonial Slide 3 -->
+        <div class="swiper-slide testi-item">
+          <img src="static/picture/Pic-3.jpg" alt="Visitor-Pic">
+          <div class="intro">
+            <i class="fas fa-quote-left"></i>
+            <div class="text">
+              <h4>Sarah Johnson</h4>
+              <h6>Art Lover</h6>
+            </div>
+            <i class="fas fa-quote-right"></i>
+          </div>
+          <p>"The museum's exhibits are a testament to human creativity and ingenuity, offering a captivating blend of artistry and historical significance. Each visit leaves me inspired and enriched, with a deeper appreciation for the beauty and diversity of artistic expression."</p>
+          <div class="rating">
+            <i class="fa-solid fa-star"></i> 
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+        </div>
+  
+        <!-- Testimonial Slide 4 -->
+        <div class="swiper-slide testi-item">
+          <img src="static/picture/Pic-4.jpg" alt="Visitor-Pic">
+          <div class="intro">
+            <i class="fas fa-quote-left"></i>
+            <div class="text">
+              <h4>Michael Brown</h4>
+              <h6>Cultural Enthusiast</h6>
+            </div>
+            <i class="fas fa-quote-right"></i>
+          </div>
+          <p>"The museum is a cultural gem, offering a diverse range of exhibits that appeal to all interests. From ancient artifacts to contemporary art, there's something here for everyone. The knowledgeable staff and immersive displays make each visit a memorable and enriching experience."</p>
+          <div class="rating">
+            <i class="fa-solid fa-star"></i> 
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+        </div>
+    
+      </div>
+  
+      <!-- Testimonial Slider Pagination -->
+      <div class="swiper-pagination swiper-pagination3"></div>
+    
+    </div>
+    
+  </section>
+  <!-- ==================== Testimonials Area (End) ==================== -->
+
+
+
+  <!-- ==================== Team Area (Start) ==================== -->
+  <section class="team">
+
+    <!-- Section Heading -->
+    <div class="heading">
+      <div class="sub"><i class="fa-solid fa-building-columns"></i><span>Meet Our Team</span><i class="fa-solid fa-building-columns"></i></div> <!-- Sub Heading -->
+      <h2>Our Team</h2>
+    </div>
+  
+    <div class="box-container">
+  
+      <!-- Team Member 1 -->
+      <div class="team-item">
+        <img src="static/picture/Team-1.jpg" alt="Team-Image"> <!-- Team Member Image -->
+        <div class="content">
+          <div class="icon-container">
+            <a href="#"><i class="fab fa-facebook-f"></i></a> <!-- Facebook Link -->
+            <a href="#"><i class="fab fa-linkedin-in"></i></a> <!-- LinkedIn Link -->
+            <a href="#"><i class="fab fa-twitter"></i></a> <!-- Twitter Link -->
+            <a href="#"><i class="fab fa-instagram"></i></a> <!-- Instagram Link -->
+          </div>
+          <div class="intro">
+            <a href="Team-Single.html"><h3>David Johnson</h3></a> <!-- Team Member Name -->
+            <p>Art Curator</p> <!-- Team Member Designation -->
+          </div>
+        </div>
+      </div>
+  
+      <!-- Team Member 2 -->
+      <div class="team-item">
+        <img src="static/picture/Team-2.jpg" alt="Team-Image"> <!-- Team Member Image -->
+        <div class="content">
+          <div class="icon-container">
+            <a href="#"><i class="fab fa-facebook-f"></i></a> <!-- Facebook Link -->
+            <a href="#"><i class="fab fa-linkedin-in"></i></a> <!-- LinkedIn Link -->
+            <a href="#"><i class="fab fa-twitter"></i></a> <!-- Twitter Link -->
+            <a href="#"><i class="fab fa-instagram"></i></a> <!-- Instagram Link -->
+          </div>
+          <div class="intro">
+            <a href="Team-Single.html"><h3>Emily Brown</h3></a> <!-- Team Member Name -->
+            <p>Gallery Manager</p> <!-- Team Member Designation -->
+          </div>
+        </div>
+      </div>
+  
+      <!-- Team Member 3 -->
+      <div class="team-item">
+        <img src="static/picture/Team-3.jpg" alt="Team-Image"> <!-- Team Member Image -->
+        <div class="content">
+          <div class="icon-container">
+            <a href="#"><i class="fab fa-facebook-f"></i></a> <!-- Facebook Link -->
+            <a href="#"><i class="fab fa-linkedin-in"></i></a> <!-- LinkedIn Link -->
+            <a href="#"><i class="fab fa-twitter"></i></a> <!-- Twitter Link -->
+            <a href="#"><i class="fab fa-instagram"></i></a> <!-- Instagram Link -->
+          </div>
+          <div class="intro">
+            <a href="Team-Single.html"><h3>Michael White</h3></a> <!-- Team Member Name -->
+            <p>Historian Guide</p> <!-- Team Member Designation -->
+          </div>
+        </div>
+      </div>
+  
+      <!-- Team Member 4 -->
+      <div class="team-item">
+        <img src="static/picture/Team-4.jpg" alt="Team-Image"> <!-- Team Member Image -->
+        <div class="content">
+          <div class="icon-container">
+            <a href="#"><i class="fab fa-facebook-f"></i></a> <!-- Facebook Link -->
+            <a href="#"><i class="fab fa-linkedin-in"></i></a> <!-- LinkedIn Link -->
+            <a href="#"><i class="fab fa-twitter"></i></a> <!-- Twitter Link -->
+            <a href="#"><i class="fab fa-instagram"></i></a> <!-- Instagram Link -->
+          </div>
+          <div class="intro">
+            <a href="Team-Single.html"><h3>Lisa Johnson</h3></a> <!-- Team Member Name -->
+            <p>Art Restoration Specialist</p> <!-- Team Member Designation -->
+          </div>
+        </div>
+      </div>
+  
+    </div>
+  
+  </section> 
+  <!-- ==================== Team Area (End) ==================== -->
+
+
+
+  <!-- ==================== Membership Plans Area (Start) ==================== -->
+  <section class="membership">
+
+    <div class="heading">
+      <div class="sub"><i class="fa-solid fa-building-columns"></i><span>Discover our membership options</span><i class="fa-solid fa-building-columns"></i></div>
+      <h2>Membership Plans</h2>
+    </div>
+  
+    <!-- Membership Plans -->
+    <div class="box-container"> 
+  
+      <!-- Membership Plan 1 - Individual Plan -->
+      <div class="plan-item">
+        <div class="intro">
+          <img src="static/picture/Plan-1.jpg" alt="Individual Plan"> <!-- Plan Image -->
+          <div class="intro-content">
+            <i class="icon fas fa-user"></i> <!-- Main Icon -->
+            <h3>Individual Membership</h3>
+            <span></span>
+            <div class="price">$99.00</div>
+            <p>per year</p>
+          </div>
+        </div>
+        <div class="content">
+          <ul> <!-- Plan Features -->
+            <li><i class="fa-solid fa-check"></i> Unlimited Museum Access</li>
+            <li><i class="fa-solid fa-check"></i> Special Exhibition Previews</li>
+            <li><i class="fa-solid fa-check"></i> Exclusive Member Events</li>
+            <li><i class="fa-solid fa-check"></i> Discounts on Museum Shop</li>
+            <li><i class="fa-solid fa-check"></i> Quarterly Newsletter</li>
+          </ul>
+          <a href="#" class="btn">Join Now</a>
+        </div>
+      </div>
+  
+      <!-- Membership Plan 2 - Family Plan -->
+      <div class="plan-item">
+        <div class="intro">
+          <img src="static/picture/Plan-2.jpg" alt="Family Plan"> <!-- Plan Image -->
+          <div class="intro-content">
+            <i class="icon fas fa-users"></i> <!-- Main Icon -->
+            <h3>Family Membership</h3>
+            <span></span>
+            <div class="price">$199.00</div>
+            <p>per year</p>
+          </div>
+        </div>
+        <div class="content">
+          <ul> <!-- Plan Features -->
+            <li><i class="fa-solid fa-check"></i> Museum Access for Two Adults and Children</li>
+            <li><i class="fa-solid fa-check"></i> Invitations to Family Workshops</li>
+            <li><i class="fa-solid fa-check"></i> Kids Club Membership</li>
+            <li><i class="fa-solid fa-check"></i> Discounts on Museum Events</li>
+            <li><i class="fa-solid fa-check"></i> Quarterly Newsletter</li>
+          </ul>
+          <a href="#" class="btn">Join Now</a>
+        </div>
+      </div>
+  
+      <!-- Membership Plan 3 - Patron Plan -->
+      <div class="plan-item">
+        <div class="intro">
+          <img src="static/picture/Plan-3.jpg" alt="Patron Plan"> <!-- Plan Image -->
+          <div class="intro-content">
+            <i class="icon fas fa-crown"></i> <!-- Main Icon -->
+            <h3>Patron Membership</h3>
+            <span></span>
+            <div class="price">$499.00</div>
+            <p>per year</p>
+          </div>
+        </div>
+        <div class="content">
+          <ul> <!-- Plan Features -->
+            <li><i class="fa-solid fa-check"></i> VIP Museum Access</li>
+            <li><i class="fa-solid fa-check"></i> Private Gallery Tours</li>
+            <li><i class="fa-solid fa-check"></i> Curator-Led Talks</li>
+            <li><i class="fa-solid fa-check"></i> Annual Patron Gala</li>
+            <li><i class="fa-solid fa-check"></i> Quarterly Newsletter</li>
+          </ul>
+          <a href="#" class="btn">Join Now</a>
+        </div>
+      </div>
+  
+    </div>
+  
+  </section>     
+  <!-- ==================== Membership Plans Area (End) ==================== --> 
+ 
+
+
+  <!-- ==================== Newsletter Area (Start) ==================== -->
+  <section class="newsletter-subscribe">
+    <div class="content">
+      <h2>Stay Informed with Our Newsletter</h2> <!-- Newsletter Heading -->
+      <p>Be the first to know about upcoming exhibitions, events, and special offers by subscribing to our newsletter.</p> <!-- Newsletter Description -->
+      <form class="newsletter-form">
+        <input type="email" id="sub-email" name="email" placeholder="Enter your email address" required=""> <!-- Email Input Field -->
+        <button type="submit" class="btn">Subscribe</button> <!-- Subscribe Button -->
+      </form>
+    </div>
+  </section>  
+  <!-- ==================== Newsletter Area (End) ==================== -->
+
+
+
+  <!-- ==================== Blogs Area (Start) ==================== -->
+  <section class="blog main">
+
+    <!-- Section Heading -->
+    <div class="heading"> 
+      <div class="sub"><i class="fa-solid fa-building-columns"></i><span>our recent articles</span><i class="fa-solid fa-building-columns"></i></div> <!-- Sub Heading -->
+      <h2>our blogs</h2> 
+    </div>
+  
+    <!-- Latest Blogs -->
+    <div class="box-container">
+
+      <!-- Blog-1 -->
+      <div class="blog-item">
+        <div class="image">
+          <img src="static/picture/Blog-1.jpg" alt="Blog-Image"> <!-- Blog Image -->
+          <div class="date"><span>25</span> Apr</div> <!-- Blog Date -->
+        </div>
+        <div class="content">
+          <a class="main-heading" href="Blog-Single.html">Exploring the Themes of Mystique Museum</a> <!-- Blog Title -->
+          <div class="details">
+            <h3><i class="fa-solid fa-circle-user"></i><span>By Admin</span></h3> <!-- Blog Author -->
+            <h3><i class="fa-solid fa-tags"></i><span>Exhibition Highlights</span></h3> <!-- Blog Category -->
+          </div>
+        </div>
+      </div>
+
+      <!-- Blog-2 -->
+      <div class="blog-item">
+        <div class="image">
+          <img src="static/picture/Blog-2.jpg" alt="Blog-Image"> <!-- Blog Image -->
+          <div class="date"><span>18</span> Apr</div> <!-- Blog Date -->
+        </div>
+        <div class="content">
+
+          <a class="main-heading" href="Blog-Single.html">Connecting Ancient Artifacts to Modern Life</a> <!-- Blog Title -->
+          <div class="details">
+            <h3><i class="fa-solid fa-circle-user"></i><span>By Admin</span></h3> <!-- Blog Author -->
+            <h3><i class="fa-solid fa-tags"></i><span>Historical Insights</span></h3> <!-- Blog Category -->
+          </div>
+        </div>
+      </div>
+
+      <!-- Blog-3 -->
+      <div class="blog-item">
+        <div class="image">
+          <img src="static/picture/Blog-3.jpg" alt="Blog-Image"> <!-- Blog Image -->
+          <div class="date"><span>05</span> Apr</div> <!-- Blog Date -->
+        </div>
+        <div class="content">
+          <a class="main-heading" href="Blog-Single.html">Lesson Plans Inspired by Our Collection</a> <!-- Blog Title -->
+          <div class="details">
+            <h3><i class="fa-solid fa-circle-user"></i><span>By Admin</span></h3> <!-- Blog Author -->
+            <h3><i class="fa-solid fa-tags"></i><span>Educational Resources</span></h3> <!-- Blog Category -->
+          </div>
+        </div>
+      </div>
+
+    </div>
+  
+  </section>
+  <!-- ==================== Blogs Area (End) ==================== -->
+
+
+
+  <!-- ==================== Partners Area (Start) ==================== -->
+  <section class="home-partners partners">
+
+    <!-- Client Slider Container -->
+    <div class="swiper-container partner-slider">
+
+      <!-- Clients Logo -->
+      <div class="swiper-wrapper">
+        <div class="swiper-slide partner-item"><a href="#"><img src="static/picture/Partner-1.png" alt="Partner-Logo"></a></div>
+        <div class="swiper-slide partner-item"><a href="#"><img src="static/picture/Partner-2.png" alt="Partner-Logo"></a></div>
+        <div class="swiper-slide partner-item"><a href="#"><img src="static/picture/Partner-3.png" alt="Partner-Logo"></a></div>
+        <div class="swiper-slide partner-item"><a href="#"><img src="static/picture/Partner-4.png" alt="Partner-Logo"></a></div>
+        <div class="swiper-slide partner-item"><a href="#"><img src="static/picture/Partner-5.png" alt="Partner-Logo"></a></div>
+        <div class="swiper-slide partner-item"><a href="#"><img src="static/picture/Partner-6.png" alt="Partner-Logo"></a></div>
+        <div class="swiper-slide partner-item"><a href="#"><img src="static/picture/Partner-7.png" alt="Partner-Logo"></a></div>
+        <div class="swiper-slide partner-item"><a href="#"><img src="static/picture/Partner-8.png" alt="Partner-Logo"></a></div>
+        <div class="swiper-slide partner-item"><a href="#"><img src="static/picture/Partner-9.png" alt="Partner-Logo"></a></div>
+        <div class="swiper-slide partner-item"><a href="#"><img src="static/picture/Partner-10.png" alt="Partner-Logo"></a></div>
+      </div>
+
+    </div>
+
+  </section>
+  <!-- ==================== Partners Area (End) ==================== -->
+
+
+
+  <!-- ==================== Footer Area (Start) ==================== -->
+  <footer class="footer">
+
+    <div class="box-container">
+  
+      <!-- Museum Information & Social Media Links -->
+      <div class="footer-item">
+  
+        <!-- Museum Logo -->
+        <a class="logo" href="">
+          <img src="static/picture/Logo.png" alt="Museum Logo">
+        </a>
+  
+        <!-- Description -->
+        <p>Explore the wonders of our exhibitions and collections, where art and history come alive.</p>
+  
+        <!-- Contact Information -->
+        <div class="info connect">
+          <p><i class="fas fa-phone"></i><span>+123-456-7890</span></p>
+          <p><i class="fas fa-envelope"></i><span class="gmail">info@mystiquemuseum.com</span></p>
+          <p><i class="fas fa-map-marker-alt"></i><span>Mystique Museum</span></p>
+        </div>
+  
+        <!-- Social Media Links -->
+        <div class="social">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+  
+      </div>
+  
+      <!-- Museum Services -->
+      <div class="footer-item">
+        <h2>Our Services</h2>
+        <div class="info links">
+          <p><i class="fa-solid fa-building-columns"></i><a href="Service-Single.html">Guided Tours</a></p>
+          <p><i class="fa-solid fa-building-columns"></i><a href="Service-Single.html">Educational Workshops</a></p>
+          <p><i class="fa-solid fa-building-columns"></i><a href="Service-Single.html">Special Events</a></p>
+          <p><i class="fa-solid fa-building-columns"></i><a href="Service-Single.html">Virtual Tours</a></p>
+          <p><i class="fa-solid fa-building-columns"></i><a href="Service-Single.html">Membership Benefits</a></p>
+          <p><i class="fa-solid fa-building-columns"></i><a href="Service-Single.html">Educational Resources</a></p>
+        </div>
+      </div>
+  
+      <!-- Quick Links -->
+      <div class="footer-item">
+        <h2>Quick Links</h2>
+        <div class="info links">
+          <p><i class="fa-solid fa-building-columns"></i><a href="About.html">About Us</a></p>
+          <p><i class="fa-solid fa-building-columns"></i><a href="Exhibitions.html">Exhibitions</a></p>
+          <p><i class="fa-solid fa-building-columns"></i><a href="Collections.html">Collections</a></p>
+          <p><i class="fa-solid fa-building-columns"></i><a href="Blog-Grid.html">Blogs</a></p>
+          <p><i class="fa-solid fa-building-columns"></i><a href="Shop-Grid.html">Shop</a></p>
+          <p><i class="fa-solid fa-building-columns"></i><a href="Contact.html">Contact Us</a></p>
+        </div>
+      </div>
+  
+      <!-- Newsletter Subscription -->
+      <div class="footer-item">
+        <h2>Newsletter</h2>
+        <p>Stay updated and informed about upcoming exhibitions, events, and special offers by subscribing to our newsletter.</p>
+        <form class="dark-form">
+          <div class="input-field">
+            <label for="news-email" class="fas fa-envelope"></label>
+            <input type="email" id="news-email" name="email" class="box" placeholder="Your email address" required="">
+          </div>
+          <button type="submit" class="btn">Subscribe</button>
+        </form>
+      </div>
+  
+    </div>
+  
+    <!-- Museum Name and Copyright -->
+    <div class="content">
+      <p>Copyright &copy; 2024.Company name All rights reserved.<a target="_blank" href="https://www.genban.org/">&#x7F51;&#x9875;&#x6A21;&#x677F;</a></p>
+    </div>
+  
+  </footer>  
+  <!-- ==================== Footer Area (End) ==================== -->
+
+
+ 
+  <!-- Jquery -->
+  <script src="static/js/jquery.min.js"></script>
+
+  <!-- Swiper (JS) -->
+  <script src="static/js/swiper-bundle.min.js"></script>
+
+  <!-- Magnific-Popup JS -->
+  <script src="static/js/jquery.magnific-popup.min.js"></script>
+
+  <!-- Isotope (JS) -->
+  <script src="static/js/isotope.pkgd.min.js"></script>
+
+  <!-- Custom Script Files -->
+  <script src="static/js/script.js"></script> <!-- Additional website functionality -->
+  <script src="static/js/nav-link-toggler.js"></script> <!-- Mobile navigation link toggling -->
+  <script src="static/js/home-slider.js"></script> <!-- Dynamic Home Slider -->
+  <script src="static/js/counter-up.js"></script> <!-- Numerical counting animation -->
+  <script src="static/js/service-slider.js"></script> <!-- Service slider control -->
+  <script src="static/js/portfolio.js"></script>  <!-- Projects functionality, including image filtering -->
+  <script src="static/js/testi-slider.js"></script> <!-- Interactive Testimonial Slider -->
+  <script src="static/js/partner-slider.js"></script> <!-- Interactive Partner Slider -->
+
+
 </body>
 </html>
