@@ -283,6 +283,7 @@ img{
     background-size: 300% 100%;
     border-radius: var(--border-radius-3);
     cursor: pointer;
+    border-radius: 10px;
 }
 
 .btn:hover{
